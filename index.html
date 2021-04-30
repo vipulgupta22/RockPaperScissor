@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div id="header">
+        <h1>Rock-Paper-Scissor</h1>
+        <a href="./index.html">Reset Game</a>
+    </div>
+    <div id="container">
+        <h2>Your Choice</h2>
+        <div id="userchoice">
+            <button class="rock" id="rock" onclick="userSelect(0)">Rock</button>
+            <button class="ppr" id="ppr" onclick="userSelect(1)">Paper</button>
+            <button class="scic" id="scic" onclick="userSelect(2)">Scissors</button>
+        </div>
+        <h2 id="mychoicehead">My Choice</h2>
+        <div id="mychoice">
+            <button class="rock" id="rock1">Rock</button>
+            <button class="ppr" id="ppr1">Paper</button>
+            <button class="scic" id="scic1">Scissors</button>
+        </div>
+    </div>
+    <div id="result">
+        <h1 class="glow" id="resultShow"></h1>
+    </div>
+    <div id="footer">
+        <h2>Made with <span>❤</span> By VIPUL</h2>
+    </div>
+    <script src="./index.js"></script>
 </body>
 </html>
