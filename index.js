@@ -3,6 +3,7 @@ const userSelect =(userChoicenum)=>{
     displayNone(userChoicenum,number);
     displayBlock(number);
     displayResult(userChoicenum,number);
+    setTimeout("location.reload(true);",4000);
 }
 
 const myrandomChoice =()=>{
