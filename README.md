@@ -1,2 +1,4 @@
 # RockPaperScissor
-I am making a game using JS
+## I made a game using JS.
+## You can Enjoy the Game at :
+
